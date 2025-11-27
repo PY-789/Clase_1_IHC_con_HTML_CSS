@@ -1,0 +1,43 @@
+/*Menu topheader*/
+.topHeader {
+  position: fixed;
+  background-color: #4e644d;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.Menu-Horizontal {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.Menu-Horizontal li a {
+  text-decoration: none;
+  padding: 15px 20px;
+  color: blue;
+}
+
+.Menu-Vertical {
+  padding: 0;
+  position: absolute;
+  display: none;
+  width: 200px;
+  list-style: none;
+}
+
+.Menu-Horizontal li:hover .Menu-Vertical {
+  display: block;
+}
+.Menu-Vertical li a {
+  display: block;
+  color: black;
+}
+
+.Menu-Vertical li {
+  background-color: yellow;
+}
